@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+
+    
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(red, green, blue, alpha)
+
+}
+.HeadContenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.HeadContenu span{
+    color: blueviolet;
+
+}
+.HeadContenu h3{
+    font-size: 2.4rem;
+    color: black;
+    font-weight: 600;
+}
+.blogcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+
+}
+.box1{
+    width: 500px;
+    background-color: white;
+    border: 1px solid #ececec;
+margin: 20px;
+}
+.blogimg{
+    margin-left: 0%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.text span{
+    color: blueviolet;
+    font-size: 0.9rem;
+}
+.text .blogtitle{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+.text .p{
+    font-size: 0,9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px ;
+
+}
+.bouton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+}
+.bouton button{
+    color: blueviolet;
+    border: 0cap;
+    margin-top: 3px;
+    margin-left: 160px;
+}
+.apropos{
+    margin-left: 2000px;
+    
+}
+.propos{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.text .a{
+color: black;
+}
+@media(max-width:1250px){
+    .box1{
+    width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .box1{
+        width: 70px;
+    }
+}
+
+
+
+
+
